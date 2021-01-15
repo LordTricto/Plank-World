@@ -387,7 +387,7 @@ function animate(){
     .setTween(cont14)
     .addTo(controller);
 
-    const cont15 = TweenMax.fromTo(card1,1, {y: "30", opacity: 0}, {y:0, opacity:1, ease: Power2.easeInOut });
+    const cont15 = TweenMax.fromTo(card1,2, {y: "30", opacity: 0}, {y:0, opacity:1, ease: Power2.easeInOut });
     const scene25 = new ScrollMagic.Scene({
         duration:0,
         triggerElement: title6,
@@ -399,16 +399,16 @@ function animate(){
     const cont16 = TweenMax.fromTo(card2,2, {y: "50", opacity: 0}, {y:0, opacity:1, ease: Power2.easeInOut });
     const scene26 = new ScrollMagic.Scene({
         duration:0,
-        triggerElement: title6,
+        triggerElement: card2,
         triggerHook:350
     })
     .setTween(cont16)
     .addTo(controller);
 
-    const cont17 = TweenMax.fromTo(card3,3, {y: "70", opacity: 0}, {y:0, opacity:1, ease: Power2.easeInOut });
+    const cont17 = TweenMax.fromTo(card3,2, {y: "70", opacity: 0}, {y:0, opacity:1, ease: Power2.easeInOut });
     const scene27 = new ScrollMagic.Scene({
         duration:0,
-        triggerElement: title6,
+        triggerElement: card3,
         triggerHook:350
     })
     .setTween(cont17)
